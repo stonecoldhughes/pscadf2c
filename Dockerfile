@@ -10,9 +10,9 @@ VOLUME /portal
 
 COPY transpile.sh .
 
-COPY p_code/modify_types.py .
+COPY modify_types.py .
 
-COPY p_code/convert_fixed_format.py .
+COPY convert_fixed_format.py .
 
 WORKDIR /portal
 
