@@ -42,7 +42,7 @@ while getopts ":n:s:d:v:" options; do
 done
 
 docker run \
--it --name pscadf2c_container \
+--name pscadf2c_container \
 --rm \
 -v $(pwd):/portal \
 pscadf2c \
