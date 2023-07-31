@@ -16,9 +16,9 @@ jobs:
       run: bash build_pscadf2c.sh
     - name: run container
       run: |
-         bash run_pscadf2c.sh -n function
-                              -s distribution_grid.f
-                              -d transpiled_output.c
+         bash run_pscadf2c.sh -n function \
+                              -s distribution_grid.f \
+                              -d transpiled_output.c \
                               -v distribution_grid_pins.csv
     - name: upload
       uses: actions/upload-artifact@v3
