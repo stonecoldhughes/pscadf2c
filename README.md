@@ -22,10 +22,6 @@ Run this command:
 
 `bash build_pscadf2c.sh`
 
-### Pull from Dockerhub
-
-`docker pull FILL_THIS_IN`
-
 ## Usage
 
 Once the container image is on your system, convert a file:
