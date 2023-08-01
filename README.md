@@ -43,5 +43,5 @@ To see an example, please run:
 This will create a file called `generate_this_file.c` containing a function called `pick_a_function_name__` with appropriate function arguments
 automatically populated.
 
-To see this example in action, please refer to the CI runs for this project. Click on "Actions" and then "Docker CI action" to see "build" and "run" stages.
+To see this example in action, please refer to the CI runs for this project. Click on "Actions" and then "Docker Image CI" to see "build" and "run" stages.
 Clicking these will demonstrate these steps.
